@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
 
 @test "hello.sh greets hello" {
-  run ./hello.sh
+  run ./hello.bash
   [ "${output}" = "Hello, bats!!" ]
 }
