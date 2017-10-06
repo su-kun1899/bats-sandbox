@@ -8,7 +8,6 @@ touch(){
   echo "touch mocking"
 }
 
-
 @test "greet function show hello from script" {
   run greet "Hello from script!!"
 
